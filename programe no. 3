@@ -1,0 +1,79 @@
+def sum(a,b):
+	print("The sum of two no.",a+b)
+
+def sub(a,b):
+	print("The sub of two no.",a-b)
+
+def mul(a,b):
+	print("The mul of two no.",a*b)
+		
+def div(a,b):
+	print("The div of two no.",a/b)
+	
+def expo(a,b):
+	print("The expo of two no.",a**b)
+		
+def fd(a,b):
+	print("The fd of two no.",a//b)
+		
+def mod(a,b):
+	print("The mod of two no.",a%b)
+		
+
+while True :
+    print("Enter 1 for sum")
+    print("Enter 2 for sub")
+    print("Enter 3 for mul")
+    print("Enter 4 for div")
+    print("Enter 5 for expo")
+    print("Enter 6 for fd")
+    print("Enter 7 for mod")
+    print("Enter 0 for exit ")
+    choice=int(input("Enter your choice"))
+
+    if choice==1:
+        x=int(input("Enter first no."))
+        y=int(input("Enter second no."))
+        sum(x,y)
+    
+
+    elif choice==2:
+        x=int(input("Enter first no."))
+        y=int(input("Enter second no."))
+        sub(x,y)
+    
+
+    elif choice==3:
+        x=int(input("Enter first no."))
+        y=int(input("Enter second no."))
+        mul(x,y)
+    
+
+    elif choice==4:
+        x=int(input("Enter first no."))
+        y=int(input("Enter second no."))
+        div(x,y)
+    
+ 
+    elif choice==5:
+        x=int(input("Enter first no."))
+        y=int(input("Enter second no."))
+        expo(x,y)
+    
+
+    elif choice==6:
+        x=int(input("Enter first no."))
+        y=int(input("Enter second no."))
+        fd(x,y)
+    
+
+    elif choice==7:
+        x=int(input("Enter first no."))
+        y=int(input("Enter second no."))
+        mod(x,y)
+    
+    elif choice==0:
+        break
+	
+    else:
+        print("beta dhyan se..")
